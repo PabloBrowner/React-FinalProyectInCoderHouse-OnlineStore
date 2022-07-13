@@ -1,7 +1,6 @@
 import imagenes from "../assets/imagenes";
-import CartWidget from "./CartWidget";
 
-const NavBar = () => {
+const NavBar = (props) => {
     return ( 
         <nav className="navbar navbar-expand-lg bg-light">
             <div className="container-fluid">
@@ -24,7 +23,7 @@ const NavBar = () => {
                     </li>
                 </ul>
                 <ul className="navbar-nav ml-auto">
-                    <CartWidget/>
+                    {props.CartWidget()}
                 </ul>
                 </div>
             </div>
