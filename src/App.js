@@ -3,6 +3,7 @@ import './App.css';
 import NavBar from './components/NavBar';
 import ItemListContainer from './components/ItemListContainer';
 import CartWidget from './components/CartWidget';
+import ItemDetailContainer from './components/ItemDetailConatiner';
 
 function App() {
 
@@ -12,9 +13,11 @@ function App() {
   return (
     <>
     
-      <NavBar CartWidget={CartWidget}/>
+    <NavBar CartWidget={CartWidget}/>
     
-      <ItemListContainer greeting={"Este es el catalogo de lamparas"}/>
+    {/*<ItemListContainer greeting={"Este es el catalogo de lamparas"}/>*/}
+
+    <ItemDetailContainer/>
     </>
   );
 }
