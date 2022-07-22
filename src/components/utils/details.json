@@ -4,6 +4,47 @@
         "lampara": "Colgante Aro",
         "precio": "$30.000",
         "img": "/img/foto1.jpg",
+        "categoria": "Colgante",
         "detalle": "Lámpara colgante de estructura metálica y bocha de vidrio opal. Incluye 100cm de cable textil y florón. Consultar por barral adicional a tono"
+    }, 
+    {
+        "id": 2,
+        "lampara": "Araña Vintage",
+        "precio": "$56.000",
+        "img": "/img/foto2.jpg",
+        "categoria": "Colgante",
+        "detalle": "Lámpara colgante de estructura metálica y bocha de vidrio opal. Incluye 100cm de cable textil y florón. Consultar por barral adicional a tono"
+    }, 
+    {
+        "id": 3,
+        "lampara": "Colgante Rob",
+        "precio": "$26.000",
+        "img": "/img/foto3.jpg",
+        "categoria": "Colgante",
+        "detalle": "Lámpara colgante de estructura metálica y bocha de vidrio opal. Incluye 100cm de cable textil y florón. Consultar por barral adicional a tono"
+    }, 
+    {
+        "id": 4,
+        "lampara": "Colgante Duo",
+        "precio": "$31.000",
+        "img": "/img/foto4.jpg",
+        "categoria": "Colgante",
+        "detalle": "Lámpara colgante de estructura metálica y bocha de vidrio opal. Incluye 100cm de cable textil y florón. Consultar por barral adicional a tono"
+    }, 
+    {
+        "id": 5,
+        "lampara": "Velador Aro",
+        "precio": "$29.000",
+        "img": "/img/foto5.jpg",
+        "categoria": "Velador",
+        "detalle": "Lámpara de escritorio de estructura metálica con globo de vidrio opal. Incluye 150cm de cable transparente con enchufe e interruptor."
+    }, 
+    {
+        "id": 6,
+        "lampara": "Leia",
+        "precio": "$27.000",
+        "img": "/img/foto6.jpg",
+        "categoria": "Velador",
+        "detalle": "Lámpara de escritorio de estructura metálica con globo de vidrio opal. Incluye 150cm de cable transparente con enchufe e interruptor."
     }
 ]

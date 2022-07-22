@@ -1,5 +1,8 @@
-const ItemDetail = ({items}) => {
-    const {lampara, precio, img, detalle} = items[0];
+
+
+const ItemDetail = ({item}) => {
+    const {lampara, precio, img, detalle} = item;
+    
     return ( 
         <>
         <div className="card mb-3" style={{width: "50rem", height: "30rem"}}>
