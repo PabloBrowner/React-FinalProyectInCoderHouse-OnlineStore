@@ -1,5 +1,8 @@
+import { useContext } from "react";
+import { CartContext } from "../contexts/CartContext";
+
 const CartWidget = () => {
-    const amount = 4;
+    const { cartItems } = useContext(CartContext);
     return ( 
         <>
             <li className="nav-item">
@@ -8,7 +11,7 @@ const CartWidget = () => {
                 </svg>
             </li>
             <li className="nav-item">
-                <p>{amount}</p>
+                <span className="ps-2">{cartItems.length}</span>
             </li>
         </>
      );
