@@ -7,7 +7,7 @@ const Cart = () => {
   useEffect(() => {
     let total = 0;
     cartItems.forEach((item) => {
-      total += parseInt(item.price);
+      total += parseInt(item.precio);
     });
     setTotalPrice(total);
   }, [cartItems]);
@@ -16,8 +16,8 @@ const Cart = () => {
       <ul>
         {cartItems.map((item) => (
           <>
-            <li>{item.title}</li>
-            <li>{item.price}</li>
+            <li>{item.lampara}</li>
+            <li>{item.precio}</li>
           </>
         ))}
       </ul>
