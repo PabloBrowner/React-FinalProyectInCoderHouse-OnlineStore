@@ -6,19 +6,20 @@ const Cart = () => {
   const { cartItems } = useContext(CartContext);
   useEffect(() => {
     let total = 0;
-    cartItems.forEach((item) => {
-      total += parseInt(item.precio);
+    cartItems.map((item) => {
+      total += Number(item.subtotal);
     });
     setTotalPrice(total);
   }, [cartItems]);
+  console.log(totalPrice);
   return (
     <>
       <ul>
-        {cartItems.map((item) => (
-          <>
+        {cartItems.map((item,index) => (
+          <div key={index} >
             <li>{item.lampara}</li>
             <li>{item.precio}</li>
-          </>
+          </div>
         ))}
       </ul>
       <h1 className="bg-primary">{`El total es: $${totalPrice}`}</h1>

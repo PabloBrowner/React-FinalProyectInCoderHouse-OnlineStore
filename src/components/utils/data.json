@@ -2,7 +2,7 @@
     {
         "id": 1,
         "lampara": "Colgante Aro",
-        "precio": "$30.000",
+        "precio": 30000,
         "stock": 15,
         "img": "/img/foto1.jpg",
         "categoria": "Colgante"
@@ -10,7 +10,7 @@
     {
         "id": 2,
         "lampara": "Araña Vintage",
-        "precio": "$56.000",
+        "precio": 56000,
         "stock": 27,
         "img": "/img/foto2.jpg",
         "categoria": "Colgante"
@@ -18,7 +18,7 @@
     {
         "id": 3,
         "lampara": "Colgante Rob",
-        "precio": "$26.000",
+        "precio": 26000,
         "stock": 9,
         "img": "/img/foto3.jpg",
         "categoria": "Colgante"
@@ -26,7 +26,7 @@
     {
         "id": 4,
         "lampara": "Colgante Duo",
-        "precio": "$31.000",
+        "precio": 30000,
         "stock": 24,
         "img": "/img/foto4.jpg",
         "categoria": "Colgante"
@@ -34,7 +34,7 @@
     {
         "id": 5,
         "lampara": "Velador Aro",
-        "precio": "$29.000",
+        "precio": 29000,
         "stock": 32,
         "img": "/img/foto5.jpg",
         "categoria": "Velador"
@@ -42,7 +42,7 @@
     {
         "id": 6,
         "lampara": "Leia",
-        "precio": "$27.000",
+        "precio": 27000,
         "stock": 21,
         "img": "/img/foto6.jpg",
         "categoria": "Velador"

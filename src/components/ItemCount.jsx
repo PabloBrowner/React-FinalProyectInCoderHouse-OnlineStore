@@ -12,7 +12,7 @@ const ItemCount = ({ stock = 2, initial = 0, onAdd }) => {
   const updateCountInput = (e) => {
     const { value } = e.target;
     if (value <= stock) {
-      setCount(isNaN(value) ? 0 : parseInt(value));
+      setCount(isNaN(value) ? 0 : Number(value));
     }
   };
   return (
