@@ -20,6 +20,14 @@ const ItemListContainer = () => {
         setLoading(false);
       });
     }, [name]);
+
+    if(name){
+
+      setItems(data.filter(item=> item.categoria.toLowerCase() == name.toLowerCase()))
+      
+      setLoading(false)
+      
+      }
   
     if (loading) {
       return <Spinner />;

@@ -15,7 +15,7 @@ const ItemDetailContainer = () => {
       useEffect(() => {
         setLoading(true);
         const db = getFirestore();
-        const itemDoc = doc(db, "detalle", id);
+        const itemDoc = doc(db, "detalles", id);
         getDoc(itemDoc).then((snapshot) => {
           setItem({ ...snapshot.data(), id: snapshot.id });
           setLoading(false);
